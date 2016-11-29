@@ -118,26 +118,24 @@
         </div>
 
         <hr/>
-        <h3>{{ 'Icons' | trans }}</h3>
+        <h2>{{ 'Icons' | trans }}</h2>
 
-        <div class="uk-form-row" v-for="icon in manifest.icons">
+        <div class="uk-form-row uk-flex uk-flex-wrap uk-flex-middle" v-for="icon in manifest.icons" data-uk-grid-margin >
 
-            <label for="form-name" class="uk-form-label uk-text-small">
-                <span>
+            <section class="uk-margin-right">
+                <div>
                     <strong>Size:</strong> {{icon.size}}
-                </span>
-                <br/>
-                <span>
+                </div>
+                <div>
                     <strong>Density:</strong> {{icon.density}}
-                </span>
-                <br/>
-                <span>
+                </div>
+                <div>
                     <strong>Type:</strong> {{icon.type}}
-                </span>
-            </label>
-            <div class="uk-form-controls">
+                </div>
+            </section>
+            <section class="uk-flex-item-auto">
                 <input-image :source.sync="icon.src"></input-image>
-            </div>
+            </section>
         </div>
 
     </div>
