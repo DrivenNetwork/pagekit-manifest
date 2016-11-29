@@ -1,0 +1,17 @@
+{
+    "name": "driven/manifest",
+    "type": "pagekit-extension",
+    "version": "1.1",
+    "title": "App Manifest",
+    "description": "Progressive web app manifest generator",
+    "authors": [
+        {
+            "name": "driven.",
+            "email": "contact@driven.network",
+            "homepage": "https://driven.network"
+        }
+    ],
+    "extra": {
+        "icon": "icon.svg"
+    }
+}
