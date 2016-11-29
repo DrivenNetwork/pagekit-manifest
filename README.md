@@ -9,7 +9,7 @@ Learn more about [PWA (Progressive Web Apps)](https://developers.google.com/web/
 
 Changelog
 ---------
-[View Log](https://github.com/DrivenNetwork/pagekit-listings/blob/master/CHANGELOG.md "Pagekit Listings Changelog") of releases and updates.
+[View Log](https://github.com/DrivenNetwork/pagekit-manifest/blob/master/CHANGELOG.md "Pagekit Listings Changelog") of releases and updates.
 
 Copyright
 ---------
