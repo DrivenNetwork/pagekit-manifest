@@ -53,7 +53,7 @@ return [
 
     'menu' => [
         'manifest' => [
-            'label'=>'App Manifest',
+            'label'=>'Manifest',
             'icon' => 'manifest:icon.svg',
             'url'=>'@manifest'
         ]
