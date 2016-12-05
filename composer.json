@@ -1,9 +1,9 @@
 {
     "name": "driven/manifest",
     "type": "pagekit-extension",
-    "version": "1.1",
-    "title": "App Manifest",
-    "description": "Progressive web app manifest generator",
+    "version": "1.0.1",
+    "title": "Manifest",
+    "description": "Web Application Manifest Generator",
     "authors": [
         {
             "name": "driven.",

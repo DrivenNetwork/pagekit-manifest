@@ -1,5 +1,5 @@
 $(function(){
-console.log($data.manifest.icons);
+
     new Vue({
         el:'#manifest',
 
