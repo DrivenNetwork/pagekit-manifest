@@ -42,8 +42,8 @@ class ManifestController
 
         $module = App::module('manifest');
         $config = $module->config;
-
-        return App::response(json_encode($config['manifest']), 200, ['Content-Type' => 'application/manifest+json'.'; charset='.'UTF-8']);
+        $response = str_replace("storage", "\\/storage", json_encode($config['manifest']));
+        return App::response($response, 200, ['Content-Type' => 'application/manifest+json'.'; charset='.'UTF-8']);
     }
 
 }
